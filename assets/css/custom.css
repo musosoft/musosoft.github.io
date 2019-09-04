@@ -900,3 +900,23 @@
 .icon.icon-server {
   color: #E4E6E7;
 }
+
+.page-header {
+  height: 420px!important;
+}
+
+.header-filter:before, .header-filter:after {
+  height: 100px;
+}
+
+body {
+  background: url('../img/keyboard.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.main {
+    background: rgba(40, 42, 45, .98);
+}
