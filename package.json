@@ -1,49 +1,53 @@
 {
-  "name": "material-kit",
-  "version": "2.0.4",
-  "description": "Material Kit, a Google Material Desgin. Coded by Creative Tim",
-  "main": "index.html",
-  "directories": {
-    "example": "root"
+  "name": "musosoft",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://muso.sk",
+  "dependencies": {
+    "@material-ui/core": "^4.9.0",
+    "@material-ui/icons": "^4.5.1",
+    "@testing-library/dom": "^6.12.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "eslint-plugin-react-hooks": "1.7.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.3.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "master -d build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/creativetimofficial/material-kit.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "keywords": [
-    "material kit",
-    "bootstrap material admin",
-    "bootstrap material kit",
-    "material design admin",
-    "material design",
-    "creative tim",
-    "html kit",
-    "html css kit",
-    "web kit",
-    "freebie",
-    "free bootstrap kit",
-    "css3 kit",
-    "bootstrap admin",
-    "bootstrap kit",
-    "frontend",
-    "responsive bootstrap kit"
-  ],
-  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/creativetimofficial/material-kit/issues"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-clean": "^0.4.0",
-    "gulp-install": "^1.1.0",
-    "gulp-sass": "^4.0.1",
-    "gulp-sourcemaps": "^2.6.4",
-    "gulp-open": "^3.0.1"
-  },
-  "homepage": "https://demos.creative-tim.com/material-kit/index.html"
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.0",
+    "gh-pages": "^2.2.0",
+    "prettier": "^1.19.1"
+  }
 }
